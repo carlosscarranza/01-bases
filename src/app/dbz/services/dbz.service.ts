@@ -18,6 +18,7 @@ export class DbzService {
     }
   ];
 
+
   get personajes(): Personaje[] {
     return [...this._personajes]; //Rompe la referencia es buena practica y crea un nueva instancia del arreglo
   }
